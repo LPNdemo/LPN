@@ -45,7 +45,7 @@ class BertEncoder(nn.Module):
         padding = True,
         truncation = True,
         max_length = 250,
-        return_tensors='pt'  # 返回的类型为pytorch tensor
+        return_tensors='pt'  
         )
         input_ids = tokenizer['input_ids'].to(self.device)
         token_type_ids = tokenizer['token_type_ids'].to(self.device)
