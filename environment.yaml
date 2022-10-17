@@ -209,4 +209,3 @@ dependencies:
     - wandb==0.10.30
     - wasabi==0.8.2
     - werkzeug==1.0.1
-prefix: /data/zhangfeng/miniconda3/envs/py36
